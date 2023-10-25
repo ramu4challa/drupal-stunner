@@ -1,0 +1,6 @@
+services:
+  session_handler.storage:
+    class: Drupal\custom_redis_session\SessionHandler
+    arguments: ['@request_stack']
+    tags:
+      - { name: session.handler }

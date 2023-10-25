@@ -1,0 +1,7 @@
+name: 'Custom Redis Session Handler'
+type: module
+description: 'Provides a custom Redis session handler for Drupal.'
+core_version_requirement: ^9 | ^10
+package: Custom
+version: '1.0'
+project: 'custom_redis_session'
